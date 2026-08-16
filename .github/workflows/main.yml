@@ -1,0 +1,19 @@
+name: Terraform CI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  terraform:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Test Runner
+        shell: powershell
+        run: |
+          Write-Host "Self-hosted runner is working"
+          hostname
+          terraform --version
