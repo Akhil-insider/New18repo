@@ -14,8 +14,6 @@ terraform {
   container_name         =   "blob"
   key = "prod.terraform.tfstate"
 
-  key                   =   "prod.terraform.tfstate"
-
 }
 } 
 
