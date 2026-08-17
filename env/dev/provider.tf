@@ -11,7 +11,7 @@ terraform {
   backend "azurerm" {
   resource_group_name   = "Akhil_RG" 
   storage_account_name  =  "akhilestrg1"
-  cotainer_name         =   "blob"
+  container_name         =   "blob"
   key                   =   "prod.terraform.tfstate"
 
 }
