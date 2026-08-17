@@ -9,7 +9,7 @@ rg1 = {
    }
 }
 
-rg1 = {
+rg2 = {
    rg_name = "rg-app"
    location = "eastus"
    tags ={
@@ -23,7 +23,7 @@ rg1 = {
 
 
 storage_accounts = {
-  stprod001 = {
+  akhilstg001dev = {
     resource_group_name      = "rg-network"
     location                 = "eastus"
     account_tier             = "Standard"
@@ -31,7 +31,7 @@ storage_accounts = {
     account_kind             = "StorageV2"
     min_tls_version          = "TLS1_2"
   }
-  stprod002 = {
+  akhilstg002dev = {
     resource_group_name      = "rg-app"
     location                 = "eastus"
     account_tier             = "Standard"
